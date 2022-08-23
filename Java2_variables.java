@@ -1,4 +1,4 @@
-public class variables
+public class Java2_variables
 {
     public static void main(String[] args)
     {
