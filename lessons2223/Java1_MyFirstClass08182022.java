@@ -1,3 +1,5 @@
+package lessons2223;
+
 public class Java1_MyFirstClass08182022
 {
     //  after you create your project and class

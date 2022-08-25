@@ -1,3 +1,5 @@
+package lessons2223;
+
 public class Java2_variables08192022
 {
     public static void main(String[] args)

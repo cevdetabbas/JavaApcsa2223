@@ -1,3 +1,5 @@
+package lessons2223;
+
 public class Java3_ArithmeticOperators08232022
 {
     //  if you need to change the class name
