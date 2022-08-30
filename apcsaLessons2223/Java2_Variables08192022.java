@@ -1,6 +1,6 @@
-package lessons2223;
+package apcsaLessons2223;
 
-public class Java2_variables08192022
+public class Java2_Variables08192022
 {
     public static void main(String[] args)
     {
