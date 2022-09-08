@@ -32,5 +32,17 @@ public class Java9_TernaryOperator09062022
         g = (a>50)?g:gnot;
         System.out.println(g);
 
+        //  write a ternary statement which checks if a number is odd or even
+
+        String evenOrOdd;
+        int number1 = 4;
+
+        evenOrOdd = (number1%2==0)? "even":"odd";
+        System.out.println(evenOrOdd);
+
+        //  nested ternary statements
+
+
+
     }
 }
