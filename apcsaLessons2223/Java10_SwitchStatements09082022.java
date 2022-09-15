@@ -9,6 +9,21 @@ public class Java10_SwitchStatements09082022
 
         //  break statement break the block
 
+        /*
+        switch statement' expression cannot be boolean
+
+        caseValues MUST be matching with the switch statement's expressions
+        caseValue MUST be unique
+
+        default: gets executed if none of case are matching
+
+        break statement: used for exiting the switch statement' block
+
+        if we do not give break statement, then the next available code fragments in switch will be executed
+
+        switch does not accept: long, float, double, boolean
+         */
+
         int h = 3;
         switch (h)
         {
