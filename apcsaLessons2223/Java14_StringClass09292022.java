@@ -72,6 +72,36 @@ public class Java14_StringClass09292022
         System.out.println(str8.lastIndexOf('t'));
         System.out.println(str8.indexOf("e"));
 
+        //  EQUALS checks if two string are the same or not returns boolean
+
+        System.out.println("ali".equals("ali"));
+        System.out.println("ali".equals("ali2"));
+        System.out.println("ali".equals("AlI"));
+        System.out.println("ali".equalsIgnoreCase("ALI"));
+
+        //  CONTAIINS check if string contains the string
+
+        System.out.println("Alexander".contains("Alex"));
+        System.out.println("Alexander".contains("alex"));  //  it is case sensitive so it returns false
+
+        //  STARTS WITH it checks if the string starts with a string
+
+        System.out.println("Alex".startsWith("A"));  //  return true
+        System.out.println("Alex".startsWith("Al"));  //  return true
+        System.out.println("Alex".startsWith("Ale"));   //  return true
+        System.out.println("Alex".startsWith("Alex"));   //  return true
+
+        //  ENDS WITH it checks if the string ends with a string
+
+        System.out.println("Christian".endsWith("n"));  // true
+        System.out.println("Christian".endsWith("an"));  // true
+        System.out.println("Christian".endsWith("ian"));  // true
+        System.out.println("Christian".endsWith("Christian"));  // true
+
+
+
+
+
 
 
     }
