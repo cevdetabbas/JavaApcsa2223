@@ -1,6 +1,6 @@
 package apcsaWarmUps2223;
 
-public class warmUp093020252
+public class warmUp09302022
 {
     public static void main(String[] args)
     {

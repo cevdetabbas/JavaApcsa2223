@@ -11,12 +11,18 @@ public class projectFullPyramit10042022
         int numberOfLevels = scanner.nextInt();
         String bricks = "";
         String spaces = "";
-         for(int i = 0,j=1 ; i<numberOfLevels ; i++ )
+        int j = 0;
+         for(int i = 0 ; i<numberOfLevels ; i++ )
          {
-             System.out.println(j);
+             while(j<numberOfLevels)
+             {
+                 spaces+="0";
+                 j+=2;
+             }
+             //System.out.println();
 
 
-             spaces+=" ";
+
              bricks+="-";
              System.out.println(spaces+bricks+spaces);
              j+=2;
