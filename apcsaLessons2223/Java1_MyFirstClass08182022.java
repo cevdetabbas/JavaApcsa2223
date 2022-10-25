@@ -19,7 +19,7 @@ public class Java1_MyFirstClass08182022
             end
         of
         the comment
-        your can type your comment
+        your can type your comment to describe what your codes does.
          */
 
         System.out.println("My First Line Of Code");
