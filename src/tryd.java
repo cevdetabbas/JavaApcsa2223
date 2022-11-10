@@ -4,7 +4,14 @@ public class tryd
 {
     public static void main(String[] args)
     {
-        char c = 97;
-        System.out.println(c);
+        String x = "red";
+        if(x=="red")
+        {
+            System.out.println(true);
+        }
+        else
+        {
+            System.out.println(false);
+        }
     }
 }
