@@ -8,7 +8,7 @@ public class Java3_ArithmeticOperators08232022
     public static void main(String[] args)
     {
         //ARITMETIC OPERATORS
-// priority is just like the algebra  +-*/%
+// priority is just like the algebra  */%+-
 //        OPERATOR	    USE				    DESCRIPTION					    EXAMPLE
 /*
             +           x+y                 adds c and y                    3+7=10
@@ -17,8 +17,8 @@ public class Java3_ArithmeticOperators08232022
             /           x/y                 divide x by y                   12/4=3
             %           x%y                 remainder                        8%6=2
             -            -x                 arithmetically negates x         int a = 3 , -a = -3;
-            ++           x++                it increases the number by 1     a++
-            --           --x                it decreases the number by1      a--
+            ++           x++ /postincrement it increases the number by 1     a++
+            --           --x /predecrement  it decreases the number by1      a--
 */
         System.out.println(3+7);//10
         System.out.println(8-2); //6
@@ -68,8 +68,8 @@ public class Java3_ArithmeticOperators08232022
         System.out.println((int)dd );
 
         // IMPLICIT CASTING
-        double d1 = 3000;  // 3000 is a whole number which is int but since data type is double it return as double
-        long l = asdf;
+        double d1 = 3000;  // 3000 is a whole number which is int but since data type is double it return as double 3000.00
+        long l = asdf;  //  asdf is int but since we assign it to long it will be -3.00
         System.out.println(d1);
         System.out.println(l);
 

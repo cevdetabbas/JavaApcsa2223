@@ -1,6 +1,6 @@
 package apcsaLessons2223;
 
-public class Java4_RelationalComparisonOperators08252022
+public class Java4_ComparisonAndLogicalOperators08252022
 {
     public static void main(String[] args)
     {
