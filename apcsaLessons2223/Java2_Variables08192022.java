@@ -5,6 +5,9 @@ public class Java2_Variables08192022
     public static void main(String[] args)
     {
         //  DECLERAITON OF VARIABLES
+
+        //  String str;  this is decleration
+        //  str = "name"  this is assignments
         // DataType VariableName = Value;
         String name = "Mustafa";     // Text or String
         int myNum = 5;               // Integer (whole number)
