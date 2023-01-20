@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 public class Java16_MultDimentionalArrays10112022
 {
+    static int[][] arr2dd = {{3,6,8},{332,116,338}};  //  two dimentional array
 
     public static void main(String[] args)
     {

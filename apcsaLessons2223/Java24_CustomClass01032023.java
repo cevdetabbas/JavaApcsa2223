@@ -52,6 +52,8 @@ public class Java24_CustomClass01032023
         student2.getDOB();
 
 
+
+
     }
 
 

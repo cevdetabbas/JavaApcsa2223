@@ -26,5 +26,7 @@ public class project5to5510202022
         }
         System.out.println(list);
 
+
+
     }
 }
